@@ -9,9 +9,11 @@
  */
 binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value)
 {
+	binary_tree_t *ptr;
+
 	if (parent == NULL)
 		return (NULL);
-	binary_tree_t *ptr = binary_tree_node(parent, value);
+	ptr = binary_tree_node(parent, value);
 
 	if (ptr == NULL)
 		return (NULL);
