@@ -3,7 +3,6 @@
  * binary_tree_insert_left - insert a node to the left
  * @parent: the parent node
  * @value: value of the node
- * 
  * Return: address of the new node
  *
  */
